@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+.redBox{
+	width:100px;
+	height:100px;
+	background-color: red;
+	animation: pulse 1s ease-in-out infinite;
+}
+@keyframes pulse{
+	from{
+		transform:scale(1);
+	}
+	to{
+		transform:scale(1.2);
+	}
+}
