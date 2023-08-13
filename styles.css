@@ -1,9 +1,12 @@
 /*  your css code here. If applicable */
-.redBox{
+.box{
 	width:100px;
 	height:100px;
-	background-color: red;
-	animation: pulse 1s ease-in-out infinite;
+	background-color: rgb(255, 0, 0);
+	animation-name: pulse;
+	animation-duration:1s;
+	animation-timing-function:ease-in-out;
+	animation-iteration-count:infinite;
 }
 @keyframes pulse{
 	from{
